@@ -1,0 +1,52 @@
+% \ProvidesPackage{beamerthemeUTAustin}
+
+% % Load the base theme
+% \usepackage{beamerthemeshadow}
+
+% Define UF Colors
+\definecolor{UFBlue}{HTML}{0021A5}
+\definecolor{UFOrange}{RGB}{235, 99, 45}
+\definecolor{UFLightGray}{HTML}{EDEDED}
+\definecolor{UFWhite}{HTML}{FFFFFF}
+
+% Background and foreground
+\setbeamercolor{background canvas}{bg=UFWhite}
+\setbeamercolor{normal text}{fg=UFBlue}
+\setbeamercolor{alerted text}{fg=UFOrange}
+
+% Titles and sections
+\setbeamercolor{frametitle}{fg=UFWhite, bg=UFBlue}
+\setbeamercolor{title}{fg=UFWhite, bg=UFBlue}
+\setbeamercolor{section in toc}{fg=UFBlue, bg=UFLightGray}
+
+% Blocks
+\setbeamercolor{block title}{fg=UFWhite, bg=UFBlue}
+\setbeamercolor{block body}{fg=UFBlue, bg=UFLightGray}
+\setbeamercolor{block title example}{fg=UFWhite, bg=UFOrange}
+\setbeamercolor{block body example}{fg=UFBlue, bg=UFWhite}
+
+% Itemize, enumerate, etc.
+\setbeamercolor{item projected}{bg=UFBlue, fg=UFWhite}
+\setbeamercolor{enumerate item}{fg=UFOrange}
+\setbeamercolor{itemize item}{fg=UFOrange}
+
+% Navigation symbols (optional)
+\setbeamercolor{navigation symbols dimmed}{fg=UFLightGray}
+\setbeamercolor{navigation symbols}{fg=UFOrange}
+
+% Additional styling
+\setbeamercolor{subsection in toc}{fg=UFBlue, bg=UFLightGray}
+\setbeamercolor{frametitle continuation}{fg=UFWhite, bg=UFOrange}
+
+% Footer and headline
+\setbeamercolor{headline}{fg=UFWhite, bg=UFOrange}
+\setbeamercolor{footline}{fg=UFWhite, bg=UFOrange}
+\setbeamercolor{title in head/foot}{fg=UFWhite, bg=UFOrange}
+\setbeamercolor{author in head/foot}{fg=UFWhite, bg=UFOrange}
+
+% % Apply theme
+% \mode<presentation>
+% {
+%   \useoutertheme{default}
+%   \usecolortheme{UTAustin}
+% }
